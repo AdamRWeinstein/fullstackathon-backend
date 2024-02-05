@@ -9,8 +9,8 @@ router.post("/", ridesCtrl.create);
 
 router.get("/:id", ridesCtrl.show);
 
-// router.delete("/:id", ridesCtrl.delete);
+router.delete("/:id", ridesCtrl.delete);
 
-// router.put("/:id", ridesCtrl.update);
+router.put("/:id", ridesCtrl.update);
 
 module.exports = router
